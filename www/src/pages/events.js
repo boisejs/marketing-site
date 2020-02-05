@@ -11,9 +11,6 @@ const EventsIndex = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Meta site={get(data, "site.meta")} />
-      <div className="container">
-        <h1>UNDER CONSTRUCTION</h1>
-      </div>
       {events.map(({ post }, i) => (
         <Post
           data={post}
@@ -30,7 +27,7 @@ const EventsIndex = ({ data, location }) => {
 export default EventsIndex;
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query EventsQuery {
     site {
       meta: siteMetadata {
         title
