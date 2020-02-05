@@ -52,9 +52,11 @@ const Members = ({ data, location }) => {
                   </small>
                 </div>
               </div>
+
               <p className="row">
-                <div className="mx-auto" data-netlify-recaptcha="true" />
+                <div className="mx-auto" data-netlify-recaptcha="true"></div>
               </p>
+
               <p className="row">
                 <button type="submit" className="btn btn-primary mx-auto">
                   Sign Up
