@@ -31,12 +31,11 @@ const EventsIndex = ({ data, location }) => {
           <h3 className="title-3">
             Developers just like YOU!{" "}
             <small className="text-muted">
-              JavaScript enthusiasts of all skill levels are welcome: curious
-              newcomers, high school hackers, after hours hobbyists, and
-              professionals from across the industry will find relevant content.
-              Events take the form of a monthly two-hour social event split
-              between networking/socialising and two educational presentations
-              (20 minute talks with 10 minutes of Q&A).
+              JavaScript enthusiasts of all skill levels are welcome: newcomers,
+              hobbyists, and professionals from across the industry will find
+              relevant content. Events take the form of monthly two-hour social
+              events split between networking/socialising and two educational
+              presentations (20 minute talks with 10 minutes of Q&A).
             </small>
           </h3>
         </div>
