@@ -14,17 +14,16 @@ const EventsIndex = ({ data, location }) => {
       <div className="jumbotron">
         <div className="container">
           <p>
-            <h1 className="heading-1 text-primary">Boise JS</h1>
+            <h1 className="heading-1 text-primary">Hey there!</h1>
           </p>
           <br />
           <p>
             <h3 className="title-3">
-              Hey there!{" "}
               <small className="text-muted">
                 {" "}
-                We're bringing JavaScript developers from across the Treasure
-                Valley together to create a united and self-enriching community
-                for networking, exploration, and continued education.
+                Boise JS is bringing together JavaScript developers from across
+                the Treasure Valley to create a united and self-enriching
+                community for networking, exploration, and continued education.
               </small>
             </h3>
           </p>
