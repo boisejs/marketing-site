@@ -9,7 +9,12 @@ const Members = ({ data, location }) => {
         <h1 className="heading-1 text-center text-primary">Coming Soon...</h1>
         <br />
         <div className="container">
-          <form name="contact" method="POST" data-netlify="true">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-recaptcha="true"
+          >
             <legend className="text-center">
               ... but you should sign up for updates!
             </legend>
@@ -47,6 +52,9 @@ const Members = ({ data, location }) => {
                   </small>
                 </div>
               </div>
+              <p className="row">
+                <div className="mx-auto" data-netlify-recaptcha="true" />
+              </p>
               <p className="row">
                 <button type="submit" className="btn btn-primary mx-auto">
                   Sign Up
