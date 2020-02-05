@@ -3,15 +3,19 @@ import { Link } from "gatsby";
 
 const Navi = ({ showSearch }) => {
   const [mobileNavShown, setMobileNavShown] = useState(false);
-  const [collapse, ariaExpanded] = mobileNavShown
-    ? ["collapse", "false"]
+  const [show, ariaExpanded] = mobileNavShown
+    ? ["show", "false"]
     : ["", "true"];
 
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <span style={{ paddingBottom: "0.1875rem" }}>
-        <Link class="navbar-brand" to="/" activeClassName="navbar-brand active">
-          BoiseJS
+        <Link
+          class="navbar-brand"
+          to="/"
+          activeClassName="navbar-brand text-primary"
+        >
+          Boise.JS
         </Link>
       </span>
       <button
@@ -27,13 +31,13 @@ const Navi = ({ showSearch }) => {
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div id="header-nav" class={`${collapse} navbar-collapse`}>
+      <div id="header-nav" class={`collapse ${show} navbar-collapse`}>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <Link
               class="nav-link"
               to="/events"
-              activeClassName="nav-link active"
+              activeClassName="nav-link text-primary"
             >
               Events
             </Link>
@@ -42,7 +46,7 @@ const Navi = ({ showSearch }) => {
             <Link
               class="nav-link"
               to="/about"
-              activeClassName="nav-link active"
+              activeClassName="nav-link text-primary"
             >
               About
             </Link>
@@ -51,7 +55,7 @@ const Navi = ({ showSearch }) => {
             <Link
               class="nav-link"
               to="/members"
-              activeClassName="nav-link active"
+              activeClassName="nav-link text-primary"
             >
               Members
             </Link>

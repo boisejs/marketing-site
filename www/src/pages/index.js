@@ -12,7 +12,7 @@ const EventsIndex = ({ data, location }) => {
     <Layout location={location}>
       <Meta site={get(data, "site.meta")} />
       <div className="container">
-        <h1>UNDER CONSTRUCTION</h1>
+        <h1 className="heading-1">UNDER CONSTRUCTION</h1>
       </div>
       {events.map(({ post }, i) => (
         <Post
