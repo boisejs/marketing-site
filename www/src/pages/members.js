@@ -13,7 +13,7 @@ const Members = ({ data, location }) => {
             name="contact"
             method="POST"
             data-netlify="true"
-            data-netlify-recaptcha="true"
+            // data-netlify-recaptcha="true"
           >
             <legend className="text-center">
               ... but you should sign up for updates!
@@ -53,11 +53,11 @@ const Members = ({ data, location }) => {
                 </div>
               </div>
 
-              <p className="row">
+              {/* <p className="row">
                 <div className="mx-auto">
                   <div data-netlify-recaptcha="true"></div>
                 </div>
-              </p>
+              </p> */}
 
               <p className="row">
                 <button type="submit" className="btn btn-primary mx-auto">
