@@ -54,7 +54,9 @@ const Members = ({ data, location }) => {
               </div>
 
               <p className="row">
-                <div className="mx-auto" data-netlify-recaptcha="true"></div>
+                <div className="mx-auto">
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
               </p>
 
               <p className="row">
