@@ -66,7 +66,7 @@ const About = ({ data, location }) => {
           <h3 className="title-3">
             Presenters:{" "}
             <small className="text-muted">
-              Presentators will be sourced from the community, and both
+              Presentations will be sourced from the community, and both
               professional and hobby developers may submit presentations.
               Presenters should bring their own laptop to present from and be
               prepared to speak authoritatively and answer detailed questions
