@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import React from "react";
 import "./style.scss";
 
@@ -8,7 +7,11 @@ const Footer = ({ author, title }) => (
       <hr className="border-primary" />
       <p>
         Join us on{" "}
-        <a href="https://github.com/boisejs/" target="_blank">
+        <a
+          href="https://github.com/boisejs/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <strong>on GitHub</strong>
         </a>
       </p>

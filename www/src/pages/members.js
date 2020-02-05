@@ -22,7 +22,7 @@ const Members = ({ data, location }) => {
             <fieldset>
               <div class="form-group row required">
                 <div className="col-6 mx-auto">
-                  <label for="name">Your Name</label>
+                  <label htmlFor="name">Your Name</label>
                   <input
                     name="name"
                     type="text"
@@ -38,7 +38,7 @@ const Members = ({ data, location }) => {
               </div>
               <div class="form-group row required">
                 <div className="col-6 mx-auto">
-                  <label for="email">Email address</label>
+                  <label htmlFor="email">Email address</label>
                   <input
                     name="email"
                     type="email"
