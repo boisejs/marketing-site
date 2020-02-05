@@ -15,7 +15,7 @@ const Navi = ({ showSearch }) => {
           to="/"
           activeClassName="navbar-brand text-primary"
         >
-          Boise.JS
+          Boise JS
         </Link>
       </span>
       <button

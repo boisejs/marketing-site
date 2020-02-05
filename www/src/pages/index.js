@@ -11,8 +11,35 @@ const EventsIndex = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Meta site={get(data, "site.meta")} />
-      <div className="container">
-        <h1 className="heading-1">UNDER CONSTRUCTION</h1>
+      <div className="jumbotron">
+        <div className="container">
+          <p>
+            <h1 className="heading-1 text-primary">Boise JS</h1>
+          </p>
+          <br />
+          <p>
+            <h3 className="title-3">
+              Hey there!{" "}
+              <small className="text-muted">
+                {" "}
+                We're bringing JavaScript developers from across the Treasure
+                Valley together to create a united and self-enriching community
+                for networking, exploration, and continued education.
+              </small>
+            </h3>
+          </p>
+          <h3 className="title-3">
+            Developers just like YOU!{" "}
+            <small className="text-muted">
+              JavaScript enthusiasts of all skill levels are welcome: curious
+              newcomers, high school hackers, after hours hobbyists, and
+              professionals from across the industry will find relevant content.
+              Events take the form of a monthly two-hour social event split
+              between networking/socialising and two educational presentations
+              (20 minute talks with 10 minutes of Q&A).
+            </small>
+          </h3>
+        </div>
       </div>
       {events.map(({ post }, i) => (
         <Post
