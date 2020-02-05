@@ -1,4 +1,4 @@
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import React from "react";
 import get from "lodash/get";
 
@@ -37,6 +37,9 @@ const EventsIndex = ({ data, location }) => {
               presentations (20 minute talks with 10 minutes of Q&A).
             </small>
           </h3>
+          <Link className="btn mt-4 btn-lg btn-primary" to="/members">
+            Join the community
+          </Link>
         </div>
       </div>
       {events.map(({ post }, i) => (
