@@ -12,7 +12,7 @@ const Footer = ({ author, title }) => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <strong>on GitHub</strong>
+          <strong>GitHub</strong>
         </a>
       </p>
     </div>
