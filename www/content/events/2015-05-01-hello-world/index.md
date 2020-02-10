@@ -11,7 +11,7 @@ tags:
   - Meetup
 ---
 
-We're very excited to announce our very first event, a meetup at Trailhead! Join us **Wednesday, February 26th** for two hours of socializing, snacking, and learning about JavaScript. Pizza and beer (must be 21 with ID to drink) will be available starting at 6:00, with tech talks starting at 6:30.
+We're very excited to announce our first event, a meetup at Trailhead! Join us **Wednesday, February 26th** for two hours of socializing, snacking, and learning about JavaScript. Pizza and beer (must be 21 with ID to drink) will be available starting at 6:00, with tech talks starting at 6:30.
 
 Your host for this event will be [Kevin Ewing](https://www.linkedin.com/in/kevin-ewing-57628b56), the Director of Web Technology at [Foundry Interactive](https://www.foundryinteractive.com/). He's going to share insights from his career architecting and implementing production applications in the healthcare space.
 
