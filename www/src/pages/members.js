@@ -11,7 +11,8 @@ const Members = ({ data, location }) => {
         <div className="container">
           <form
             name="contact"
-            method="POST"
+            method="post"
+            action="/members"
             data-netlify="true"
             // data-netlify-recaptcha="true"
           >
