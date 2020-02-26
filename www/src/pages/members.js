@@ -54,11 +54,7 @@ const Members = ({ data, location }) => {
                 </div>
               </div>
 
-              {/* <p className="row">
-                <div className="mx-auto">
-                  <div data-netlify-recaptcha="true"></div>
-                </div>
-              </p> */}
+              <input type="hidden" name="form-name" value="contact" />
 
               <p className="row">
                 <button type="submit" className="btn btn-primary mx-auto">
