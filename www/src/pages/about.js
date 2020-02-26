@@ -6,14 +6,8 @@ const About = ({ data, location }) => {
     <Layout location={location}>
       <div className="jumbotron">
         <div className="container">
-          <div className="row">
-            <div className="col-3 mx-auto">
-              <img src="../../content/images/boisejs512.png" alt="Boise JS" />
-            </div>
-          </div>
-          <p>
-            <h1 className="heading-1 text-primary">About</h1>
-          </p>
+          <div className="row"></div>
+          <h1 className="heading-1 text-primary">About</h1>
           <br />
           <p>
             <h3 className="title-3">
