@@ -13,7 +13,7 @@ const Members = ({ data, location }) => {
             name="contact"
             method="POST"
             content-type="application/x-www-form-urlencoded"
-            action="/members?success=true"
+            action="/members"
             data-netlify="true"
           >
             <legend className="text-center">
