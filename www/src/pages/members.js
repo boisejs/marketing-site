@@ -11,10 +11,10 @@ const Members = ({ data, location }) => {
         <div className="container">
           <form
             name="contact"
-            method="post"
-            action="/members"
+            method="POST"
+            content-type="application/x-www-form-urlencoded"
+            action="/members?success=true"
             data-netlify="true"
-            // data-netlify-recaptcha="true"
           >
             <legend className="text-center">
               ... but you should sign up for updates!
